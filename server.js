@@ -5,7 +5,9 @@ const { fetchProtocolData, parseError, normalizeForJson } = require('./utils');
 const app = express();
 const port = process.env.PORT || 4000;
 
-app.use(cors());
+app.use(cors({
+  origin: 'https://web-dashbaord.onrender.com'
+}));
 app.use(express.json());
 
 app.get('/health', (req, res) => {
