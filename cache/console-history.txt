@@ -1,0 +1,36 @@
+console.log(await contract.paused());
+);
+  ethers.provider
+  ["function paused() view returns (bool)"],
+  "0x0c06d6a17eb208a9bc7bd698eb6f22379209e3a4",
+const contract = new ethers.Contract(
+console.log("Contract paused now?", await contractWithSigner.paused());
+// Verify paused status
+}
+  }
+    console.error("Both pause methods failed:", err.message);
+  } catch (err) {
+    console.log("✅ setPaused(true) confirmed:", tx.hash);
+    await tx.wait();
+    const tx = await contractWithSigner.setPaused(true);
+  try {
+  console.log("pause() failed, trying setPaused(true)...");
+} catch (error) {
+  console.log("✅ Pause transaction confirmed:", tx.hash);
+  await tx.wait();
+  const tx = await contractWithSigner.pause(); // Try pause()
+try {
+console.log("Pausing contract...");
+// Try to pause
+console.log("Current paused status:", await contractWithSigner.paused());
+// Check current paused status
+const contractWithSigner = contract.connect(signer);
+const signer = await ethers.getSigner();
+const contract = new ethers.Contract(contractAddress, abi, ethers.provider);
+];
+  "function paused() view returns (bool)"
+  "function setPaused(bool) external",
+  "function pause() external",
+const abi = [
+// Load the contract ABI – we only need the pause function
+const contractAddress = "0x0c06d6a17eb208a9bc7bd698eb6f22379209e3a4";

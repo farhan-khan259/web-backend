@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "SafeCall",
+  "sourceName": "contracts/EWBRevenueRouter.sol",
+  "abi": [],
+  "bytecode": "0x60808060405234601757603a9081601d823930815050f35b600080fdfe600080fdfea264697066735822122084982c87ba7cbf26431ed828b130de1be6e58517c3a9abc83bcf837f0b15f68564736f6c63430008130033",
+  "deployedBytecode": "0x600080fdfea264697066735822122084982c87ba7cbf26431ed828b130de1be6e58517c3a9abc83bcf837f0b15f68564736f6c63430008130033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

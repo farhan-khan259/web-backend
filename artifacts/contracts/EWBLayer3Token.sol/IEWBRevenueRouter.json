@@ -1,0 +1,39 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IEWBRevenueRouter",
+  "sourceName": "contracts/EWBLayer3Token.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "getTotalIncome",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "lpFees",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "stethYield",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "dydxIncome",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "grandTotal",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

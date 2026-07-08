@@ -1,0 +1,263 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "MockAaveV3Pool",
+  "sourceName": "contracts/mocks/Mocks.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint16",
+          "name": "",
+          "type": "uint16"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "borrow",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "getUserAccountData",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "totalCollateral",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "totalDebt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "availableBorrow",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "liquidationThreshold",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "ltv",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "healthFactor_",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "healthFactor",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "isPaused",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "repay",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_hf",
+          "type": "uint256"
+        }
+      ],
+      "name": "setHealthFactor",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bool",
+          "name": "_paused",
+          "type": "bool"
+        }
+      ],
+      "name": "setPaused",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "supplied",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "asset",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "onBehalfOf",
+          "type": "address"
+        },
+        {
+          "internalType": "uint16",
+          "name": "",
+          "type": "uint16"
+        }
+      ],
+      "name": "supply",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "to",
+          "type": "address"
+        }
+      ],
+      "name": "withdraw",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "yieldRate",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60808060405234610027576023600255671bc16d674ec800006003556103ce908161002d8239f35b600080fdfe60806040818152600436101561001457600080fd5b600091823560e01c908163155a7205146102e45750806316c38b3c146102b457806322841f0114610296578063311117081461027b578063573ade811461023c578063617ba037146101c857806369328dec1461018a5780636999ac931461016c578063a415bcad14610121578063b187bd26146100fe5763bf92857c1461009b57600080fd5b346100fa5760203660031901126100fa5760c0916100b761031b565b506100c760ff600154161561035d565b60035490825192670de0b6b3a7640000918285526020850152830152611f406060830152611d4c608083015260a0820152f35b5080fd5b50346100fa57816003193601126100fa5760209060ff6001541690519015158152f35b82346101695760a03660031901126101695761013b61031b565b5061014461034c565b506084356001600160a01b038116036101695761016660ff600154161561035d565b80f35b80fd5b50346100fa57816003193601126100fa576020906002549051908152f35b50346100fa5760603660031901126100fa576020906101a761031b565b506101b0610336565b506101c060ff600154161561035d565b516024358152f35b50346100fa5760803660031901126100fa576101e261031b565b506101eb610336565b6101f361034c565b5061020360ff600154161561035d565b6001600160a01b03168252602082905281208054602435810191908210610228575580f35b634e487b7160e01b83526011600452602483fd5b50346100fa5760803660031901126100fa5761025661031b565b506064356001600160a01b038116036100fa576020906101c060ff600154161561035d565b82346101695760203660031901126101695760043560035580f35b50346100fa57816003193601126100fa576020906003549051908152f35b8234610169576020366003190112610169576004358015158091036100fa5760ff80196001541691161760015580f35b91905034610317576020366003190112610317576020926001600160a01b0361030b61031b565b16815280845220548152f35b8280fd5b600435906001600160a01b038216820361033157565b600080fd5b604435906001600160a01b038216820361033157565b6064359061ffff8216820361033157565b1561036457565b60405162461bcd60e51b815260206004820152600c60248201526b10585d994e881c185d5cd95960a21b6044820152606490fdfea26469706673582212203d1a2deaa724f9defa4d61fd9299294b6bc44be3f3c7ff4424eb1abed34fe35a64736f6c63430008130033",
+  "deployedBytecode": "0x60806040818152600436101561001457600080fd5b600091823560e01c908163155a7205146102e45750806316c38b3c146102b457806322841f0114610296578063311117081461027b578063573ade811461023c578063617ba037146101c857806369328dec1461018a5780636999ac931461016c578063a415bcad14610121578063b187bd26146100fe5763bf92857c1461009b57600080fd5b346100fa5760203660031901126100fa5760c0916100b761031b565b506100c760ff600154161561035d565b60035490825192670de0b6b3a7640000918285526020850152830152611f406060830152611d4c608083015260a0820152f35b5080fd5b50346100fa57816003193601126100fa5760209060ff6001541690519015158152f35b82346101695760a03660031901126101695761013b61031b565b5061014461034c565b506084356001600160a01b038116036101695761016660ff600154161561035d565b80f35b80fd5b50346100fa57816003193601126100fa576020906002549051908152f35b50346100fa5760603660031901126100fa576020906101a761031b565b506101b0610336565b506101c060ff600154161561035d565b516024358152f35b50346100fa5760803660031901126100fa576101e261031b565b506101eb610336565b6101f361034c565b5061020360ff600154161561035d565b6001600160a01b03168252602082905281208054602435810191908210610228575580f35b634e487b7160e01b83526011600452602483fd5b50346100fa5760803660031901126100fa5761025661031b565b506064356001600160a01b038116036100fa576020906101c060ff600154161561035d565b82346101695760203660031901126101695760043560035580f35b50346100fa57816003193601126100fa576020906003549051908152f35b8234610169576020366003190112610169576004358015158091036100fa5760ff80196001541691161760015580f35b91905034610317576020366003190112610317576020926001600160a01b0361030b61031b565b16815280845220548152f35b8280fd5b600435906001600160a01b038216820361033157565b600080fd5b604435906001600160a01b038216820361033157565b6064359061ffff8216820361033157565b1561036457565b60405162461bcd60e51b815260206004820152600c60248201526b10585d994e881c185d5cd95960a21b6044820152606490fdfea26469706673582212203d1a2deaa724f9defa4d61fd9299294b6bc44be3f3c7ff4424eb1abed34fe35a64736f6c63430008130033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

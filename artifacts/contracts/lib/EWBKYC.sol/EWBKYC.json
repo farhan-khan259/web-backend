@@ -1,0 +1,21 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "EWBKYC",
+  "sourceName": "contracts/lib/EWBKYC.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "InvalidSignatureLength",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "InvalidSignatureV",
+      "type": "error"
+    }
+  ],
+  "bytecode": "0x60808060405234601757603a9081601d823930815050f35b600080fdfe600080fdfea2646970667358221220dd835fda54b51d41340ebcee9f96be5a8369e699c4aaf94bbbf8ac6d9fb5fb4864736f6c63430008130033",
+  "deployedBytecode": "0x600080fdfea2646970667358221220dd835fda54b51d41340ebcee9f96be5a8369e699c4aaf94bbbf8ac6d9fb5fb4864736f6c63430008130033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

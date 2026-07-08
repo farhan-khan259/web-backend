@@ -1,0 +1,66 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "MockCurvePool",
+  "sourceName": "contracts/mocks/Mocks.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "int128",
+          "name": "",
+          "type": "int128"
+        },
+        {
+          "internalType": "int128",
+          "name": "",
+          "type": "int128"
+        },
+        {
+          "internalType": "uint256",
+          "name": "dx",
+          "type": "uint256"
+        }
+      ],
+      "name": "get_dy",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "pegRatio",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "ratio",
+          "type": "uint256"
+        }
+      ],
+      "name": "setPegRatio",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080806040523461002257670de0b6b3a764000060005561010e90816100288239f35b600080fdfe6080806040526004361015601257600080fd5b600090813560e01c90816303aa6b421460bc575080635e0d443f146058576367bdfb8e14603e57600080fd5b346055576020366003190112605557600435815580f35b80fd5b5034605557606036600319011260555760043580600f0b0360555760243580600f0b0360555780546044358181029291811591840414171560a857602082670de0b6b3a764000060405191048152f35b634e487b7160e01b81526011600452602490fd5b90503460d4578160031936011260d457602091548152f35b5080fdfea264697066735822122082d88cc708839a89dbba6633b44e1ea2ae30b7a3621c2ae21bf87cb3ae44cbab64736f6c63430008130033",
+  "deployedBytecode": "0x6080806040526004361015601257600080fd5b600090813560e01c90816303aa6b421460bc575080635e0d443f146058576367bdfb8e14603e57600080fd5b346055576020366003190112605557600435815580f35b80fd5b5034605557606036600319011260555760043580600f0b0360555760243580600f0b0360555780546044358181029291811591840414171560a857602082670de0b6b3a764000060405191048152f35b634e487b7160e01b81526011600452602490fd5b90503460d4578160031936011260d457602091548152f35b5080fdfea264697066735822122082d88cc708839a89dbba6633b44e1ea2ae30b7a3621c2ae21bf87cb3ae44cbab64736f6c63430008130033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

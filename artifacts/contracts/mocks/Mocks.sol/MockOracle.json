@@ -1,0 +1,118 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "MockOracle",
+  "sourceName": "contracts/mocks/Mocks.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_floorETH",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_ethUSD",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "ethUSDPrice",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "floorPriceETH",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getETHUSDPrice",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getFloorPriceETH",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_price",
+          "type": "uint256"
+        }
+      ],
+      "name": "setETHUSD",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_floor",
+          "type": "uint256"
+        }
+      ],
+      "name": "setFloorPrice",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "useManualFloor",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60803461006757601f6101f938819003918201601f19168301916001600160401b0383118484101761006c578084926040948552833981010312610067576020815191015190600160ff19600254161760025560005560015560405161017690816100838239f35b600080fd5b634e487b7160e01b600052604160045260246000fdfe608080604052600436101561001357600080fd5b600090813560e01c9081633d05829d146101265781636e18eba514610106575080636e494bc3146100e3578063bf4b1990146100c5578063db71007e146100a8578063e230dfbd1461008d5763f0ad7c751461006e57600080fd5b3461008a578060031936011261008a5760209054604051908152f35b80fd5b503461008a57602036600319011261008a5760043560015580f35b503461008a578060031936011261008a5760209054604051908152f35b503461008a578060031936011261008a576020600154604051908152f35b503461008a578060031936011261008a57602060ff600254166040519015158152f35b9050346101225781600319360112610122576020906001548152f35b5080fd5b823461008a57602036600319011261008a57600435815580f3fea2646970667358221220b2441ca62346ab0bc8a66c18813a0937a7b4a32f9bf414544c5bbc202f18a5d664736f6c63430008130033",
+  "deployedBytecode": "0x608080604052600436101561001357600080fd5b600090813560e01c9081633d05829d146101265781636e18eba514610106575080636e494bc3146100e3578063bf4b1990146100c5578063db71007e146100a8578063e230dfbd1461008d5763f0ad7c751461006e57600080fd5b3461008a578060031936011261008a5760209054604051908152f35b80fd5b503461008a57602036600319011261008a5760043560015580f35b503461008a578060031936011261008a5760209054604051908152f35b503461008a578060031936011261008a576020600154604051908152f35b503461008a578060031936011261008a57602060ff600254166040519015158152f35b9050346101225781600319360112610122576020906001548152f35b5080fd5b823461008a57602036600319011261008a57600435815580f3fea2646970667358221220b2441ca62346ab0bc8a66c18813a0937a7b4a32f9bf414544c5bbc202f18a5d664736f6c63430008130033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

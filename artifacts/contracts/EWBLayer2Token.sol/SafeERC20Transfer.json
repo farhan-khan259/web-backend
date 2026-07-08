@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "SafeERC20Transfer",
+  "sourceName": "contracts/EWBLayer2Token.sol",
+  "abi": [],
+  "bytecode": "0x60808060405234601757603a9081601d823930815050f35b600080fdfe600080fdfea2646970667358221220a165f357980e34482512453d6371def2c4317b7676ef911f66228efcb6a6a83864736f6c63430008130033",
+  "deployedBytecode": "0x600080fdfea2646970667358221220a165f357980e34482512453d6371def2c4317b7676ef911f66228efcb6a6a83864736f6c63430008130033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

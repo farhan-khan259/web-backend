@@ -1,0 +1,9 @@
+{
+  "network": "sepolia",
+  "oracle": "0xC4963d86216a83ed6238C0524bA0f562DC688179",
+  "whaleVault": "0x879814a1F0D14FC0B5b1B5B832bFe52dFE7f3855",
+  "mintingVault": "0xb57e2e8A354ebA139Db2253cF770d1cCac5D3894",
+  "revenueRouter": "0x364cb0DF8b1AAeF398F6f5Bf13B511d24A6145bb",
+  "deltaNeutralVault": "0xCabF26EDcE408AB993D3D64613e59DeC4516677d",
+  "creditBridge": "0x7e7cDFb148cc07735aeA81A1d5DC74fe09c1A254"
+}

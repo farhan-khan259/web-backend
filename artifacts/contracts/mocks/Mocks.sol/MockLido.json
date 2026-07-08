@@ -1,0 +1,110 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "MockLido",
+  "sourceName": "contracts/mocks/Mocks.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "approve",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "balanceOf",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "submit",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "totalStaked",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "transfer",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080806040523461001657610156908161001c8239f35b600080fdfe6080604052600436101561001257600080fd5b6000803560e01c908163095ea7b31461005657816370a08231146100bb578163817b1cd21461009f578163a1903eab1461005b575063a9059cbb1461005657600080fd5b6100fb565b602036600319011261009c5761006f6100e0565b5080549034820180921161008857556020604051348152f35b634e487b7160e01b81526011600452602490fd5b80fd5b3461009c578060031936011261009c5760209054604051908152f35b3461009c57602036600319011261009c576020906100d76100e0565b50604051908152f35b600435906001600160a01b03821682036100f657565b600080fd5b346100f65760403660031901126100f6576101146100e0565b50602060405160018152f3fea2646970667358221220afac9a993a1c342e0b1a94d6105ed4e573c45cd6c8924817099f3643eabde6db64736f6c63430008130033",
+  "deployedBytecode": "0x6080604052600436101561001257600080fd5b6000803560e01c908163095ea7b31461005657816370a08231146100bb578163817b1cd21461009f578163a1903eab1461005b575063a9059cbb1461005657600080fd5b6100fb565b602036600319011261009c5761006f6100e0565b5080549034820180921161008857556020604051348152f35b634e487b7160e01b81526011600452602490fd5b80fd5b3461009c578060031936011261009c5760209054604051908152f35b3461009c57602036600319011261009c576020906100d76100e0565b50604051908152f35b600435906001600160a01b03821682036100f657565b600080fd5b346100f65760403660031901126100f6576101146100e0565b50602060405160018152f3fea2646970667358221220afac9a993a1c342e0b1a94d6105ed4e573c45cd6c8924817099f3643eabde6db64736f6c63430008130033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

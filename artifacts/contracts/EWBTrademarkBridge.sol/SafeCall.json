@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "SafeCall",
+  "sourceName": "contracts/EWBTrademarkBridge.sol",
+  "abi": [],
+  "bytecode": "0x60808060405234601757603a9081601d823930815050f35b600080fdfe600080fdfea2646970667358221220821476aeecccee20fe2554e86acc1ed030d9f6e3710d6003fa53a653ee62bf4564736f6c63430008130033",
+  "deployedBytecode": "0x600080fdfea2646970667358221220821476aeecccee20fe2554e86acc1ed030d9f6e3710d6003fa53a653ee62bf4564736f6c63430008130033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
