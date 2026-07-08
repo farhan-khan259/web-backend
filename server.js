@@ -21,6 +21,11 @@ app.get('/api/protocol', async (req, res) => {
   }
 });
 
+// Root route: provide quick status and available endpoints
+app.get('/', (req, res) => {
+  res.json({ success: true, message: 'EWB backend API', endpoints: ['/health', '/api/protocol'] });
+});
+
 app.listen(port, () => {
   console.log(`API Server is running on port ${port}`);
 });
